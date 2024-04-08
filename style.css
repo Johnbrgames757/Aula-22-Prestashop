@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:plr;
+    src: url(Teachers\ Students.otf);
+}
+
+@font-face {
+    font-family:isu;
+    src: url(Handineat.otf);
+}
+
+@font-face {
+    font-family:k;
+    src: url(Ginerin-Regular.otf);
+}
+
+body{
+    background-color: rgb(252, 237, 252);
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.modulo.parallax-1 {
+    background-image: url(https://outviocmsassets.s3.eu-central-1.amazonaws.com/ckze5g5cc00027a9277ed4bth.jpg);
+}
+
+
+section.modulo.parallax h1 {
+    z-index: 50;
+}
+
+section.modulo.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(255, 255, 255, 0) 80%, rgb(0, 0, 0) 100%);
+}
+
+.shop{
+    color: rgb(196, 60, 105);
+    
+    
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+     font-family:k;
+    font-size: 70px;
+    text-align: center;
+}
+
+p{
+    font-family: isu;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2{
+    font-family:k;
+    text-align: center;
+    font-size: 70px;
+}
+
+h3{
+    text-align: center;
+    font-family: plr;
+    font-size: 50px;
+}
